@@ -225,9 +225,12 @@ img {
 }
 
 .about__img {
-  margin: 2rem;
-  width: 400px;
-  height: 400px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
 }
 
 .about__text {
@@ -320,8 +323,8 @@ img {
 }
 
 .blog__container {
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 2rem;
+  justify-content: center;
+  row-gap: 2rem;
 }
 
 .zoom {
@@ -436,15 +439,6 @@ img {
     text-align: initial;
     padding: 4rem 0;
   }
-
-  /* .about__img {
-    width: 200px;
-    height: 200px;
-  } */
-
-  /* .about__img img {
-    width: 165px;
-  } */
 
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
